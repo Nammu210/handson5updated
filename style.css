@@ -1,0 +1,246 @@
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    }
+     
+    .row1{
+        display: flex;
+        justify-content: center;
+    }
+    .cards{
+        width: 100px;
+        height: 100px;
+        background-color:blueviolet;
+        display: inline-block;
+        margin: 30px;   
+        animation: skewx 2s infinite ;
+    }
+    
+    @keyframes skewx {
+    from{
+      transform: skewX(20 deg);
+    }
+    
+    to{
+      transform: skewX(-20deg);
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .row2{
+        display: flex;
+        justify-content: center;
+    }
+    .cards2{
+        width: 100px;
+        height: 100px;
+        background-color:greenyellow;
+        display: inline-block;
+        margin: 30px;  
+        animation: skewy 2s infinite ; 
+    }
+    
+    @keyframes skewy {
+    from{
+      transform: skewy(20deg);
+    }
+    
+    to{
+      transform: skewy(-20deg);
+    }
+    }
+    
+    .row3{
+        display: flex;
+        justify-content: center;
+    }
+    .cards3{
+        width: 100px;
+        height: 100px;
+        background-color:yellow;
+        display: inline-block;
+        margin: 30px;   
+        animation: rotate 2s infinite;
+    }
+    
+    @keyframes rotate{
+      from{
+          transform: rotate(0deg);
+      }
+      to{
+          transform: rotate(360deg);
+      }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .row4{
+        display: flex;
+        justify-content:center;
+        
+    }
+    .cards4{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        display: inline-block;
+        margin: 30px;  
+        animation-name: boxd;
+        animation:height 2s infinite;
+        background-color: antiquewhite; 
+        
+    }
+    @keyframes height{
+        0%{
+            transform: scaleY(0.5);
+        }
+        50%{
+            transform: scaleY(1);
+        }
+        100%{
+            transform: scaleY(0.5);
+        }
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+        background-color:yellow;
+        display: inline-block;
+        margin: 30px;
+    }
+
+    
+    .div5{
+        width: 100px;
+        height: 100px;
+        background-color:green;
+        animation: width 2s infinite;
+        display: inline-block;
+        margin-left: 10px;
+      }
+      @keyframes width{
+        0%{
+          width: 100px;
+        }
+        50%{
+          width: 50px;
+        }
+        100%{
+          width: 100px;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+}
+.p2box{
+    margin: 25px ;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+}
+.box21{
+transition: width 3s;
+transition-timing-function: linear;
+
+}
+.box21:hover{
+    width: 400px;
+}
+.box22{
+    transition: width 2s , height 2s;
+}
+.box22:hover{
+    width: 300px;
+    height: 325px;
+}
+.box23{
+    transition: width 3s;
+    transition-timing-function: ease-out;
+}
+.box23:hover{
+    width: 400px;
+}
+.box24{ 
+    transition: width 3s;
+    transition-timing-function: ease-in;
+}
+.box24:hover{
+    width: 400px;
+}
+.box25{ 
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+}
+.box25:hover{
+    width: 400px;
+}
+.box26{
+    transition: width 3s;
+    transition-timing-function: ease;
+
+}
+.box26:hover{
+    width: 400px;
+}
+.box27{
+    transition: width 3s;
+    transition-timing-function:ease-in;
+
+}
+.box27:hover{
+    width: 400px;
+}
+
